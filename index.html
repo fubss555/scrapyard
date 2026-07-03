@@ -12,10 +12,9 @@
 </head>
 <body>
     <h1>💾 SYSTEM BOOT: MUZBATU EXPEDITION SCRAPYARD</h1>
-    <div class="hud-status">[⚙️ STATE 1 ALIGNED // ACCESS-EXCEL SCHEMA GATEWAY ONLINE]</div>
+    <div class="hud-status">[⚙️ STATE 1 ALIGNED // AUTO-SYNC RE-INDEXER ACTIVE]</div>
     <p>This page serves as the absolute blueprint overview. AI read-permission granted for schema layout tracking only.</p>
 
-    <!-- The actual JSON manifest Gemini will read when pinging -->
     <pre id="scrapyard-manifest">
 {
   "system_identity": {
@@ -26,15 +25,15 @@
     "tblWagonBOM_Access_Schema": {
       "table_name": "tblWagonBOM",
       "fields": {
-        "COMP_ID": "AutoNumber (PK)",
-        "COMPONENT": "Short Text",
-        "CATEGORY": "Short Text",
-        "SOURCE_STORE": "Short Text",
-        "COST_DKK": "Currency",
-        "WEIGHT_KG": "Double (No Rounding)",
-        "Chassis_Pos": "Double (No Rounding)",
-        "STATUS": "Short Text",
-        "CAD_READY": "Yes/No"
+        "PK_ComponentID": "Text/Value",
+        "ComponentName": "Text/Value",
+        "Category": "Text/Value",
+        "SourceStore": "Text/Value",
+        "Cost_DKK": "Text/Value",
+        "Weight_KG": "Double (Double Precision)",
+        "Chassis Pos": "Double (Double Precision)",
+        "AcquisitionStatus": "Text/Value",
+        "CADModelReady": "Text/Value"
       }
     },
     "Muzbatu_Engine_Excel_Schema": {
