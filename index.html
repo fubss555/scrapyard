@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muzbatu Digital Scrapyard</title>
+    <style>
+        body { background-color: #1a0f0f; color: #e6b8af; font-family: monospace; padding: 20px; }
+        h1 { color: #ff5555; border-bottom: 2px solid #551a1a; padding-bottom: 10px; }
+        pre { background-color: #0c060c; border: 1px solid #ff5555; padding: 15px; overflow-x: auto; color: #ff9999; }
+        .hud-status { color: #00ff00; font-weight: bold; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>💾 SYSTEM BOOT: MUZBATU EXPEDITION SCRAPYARD</h1>
+    <div class="hud-status">[⚙️ STATE 1 ALIGNED // ACCESS-EXCEL SCHEMA GATEWAY ONLINE]</div>
+    <p>This page serves as the absolute blueprint overview. AI read-permission granted for schema layout tracking only.</p>
+
+    <!-- The actual JSON manifest Gemini will read when pinging -->
+    <pre id="scrapyard-manifest">
+{
+  "system_identity": {
+    "wagon_class": "LarvaLush",
+    "state": "State 1 (Fluid - Coconut Colosseum)"
+  },
+  "layouts": {
+    "tblWagonBOM_Access_Schema": {
+      "table_name": "tblWagonBOM",
+      "fields": {
+        "COMP_ID": "AutoNumber (PK)",
+        "COMPONENT": "Short Text",
+        "CATEGORY": "Short Text",
+        "SOURCE_STORE": "Short Text",
+        "COST_DKK": "Currency",
+        "WEIGHT_KG": "Double (No Rounding)",
+        "Chassis_Pos": "Double (No Rounding)",
+        "STATUS": "Short Text",
+        "CAD_READY": "Yes/No"
+      }
+    },
+    "Muzbatu_Engine_Excel_Schema": {
+      "sheet_mirror": "WagonBOM_Mirror (Protocol Alpha Link)",
+      "sheet_analytics": "Drivetrain_Analytics",
+      "observed_calculations": {
+        "F11": "=SUM(F2:F10) [Calculates Total Weight]",
+        "G11": "=SUMPRODUCT(F2:F10, G2:G10)/F11 [Calculates Center of Gravity]"
+      }
+    }
+  }
+}
+    </pre>
+</body>
+</html>
